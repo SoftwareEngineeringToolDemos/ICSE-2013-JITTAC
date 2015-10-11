@@ -5,7 +5,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 * [The Official Project Page, excluding source code](http://actool.sourceforge.net/)
 * [The Tool on SourceForge](https://sourceforge.net/projects/actool/)
 
-In this repository, for ExampleTool you will find:
+In this repository, for JITTAC you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC) (available)
 * :x: The original tool (see SourceForge link)
 

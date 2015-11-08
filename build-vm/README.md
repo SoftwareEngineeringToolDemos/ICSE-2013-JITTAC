@@ -3,14 +3,14 @@ Details on vm built using Vagrant
 
 Environment
 ------
-__Virtual Box used:__ [box-cutter/ubuntu1404-desktop](https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop)
+__Virtual Box used:__ [box-cutter/ubuntu1404-desktop](https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop)  
+This will be an Ubuntu 14.04 64 bit box with guest additions.
 
 Folder content
 -----
 This build-vm folder contains following things:
 - __README.md__ file
-- __Vagrantfile__
-  This script will create and configure the VM.
+- __Vagrantfile__  This script will create and configure the VM with OpenJdk7.
 
 
 Steps to create a VM using this build

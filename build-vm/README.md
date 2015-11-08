@@ -28,3 +28,9 @@ username: __vagrant__
 password: __vagrant__
 
 **Note:** It may take several minutes to download and configure the VM for use. Please wait until "__vagrant up__" finishes execution before working on GUI.
+
+Verification
+-----
+1. Open terminal in Virtalbox gui
+2. type java -version
+3. Verify OpenJDK 7 has been successfully installed

@@ -3,7 +3,7 @@ Details on vm built using Vagrant
 
 Environment
 ------
-__Virtual Box used:__ [Ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trusty64)
+__Virtual Box used:__ [box-cutter/ubuntu1404-desktop](https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop)
 
 Folder content
 -----
@@ -27,4 +27,4 @@ Steps to create a VM using this build
 
 Note:
 
-Please wait until "__vagrant up__" finishes execution before working on GUI.
+It may take several minutes to download and configure the VM for use. Please wait until "__vagrant up__" finishes execution before working on GUI.

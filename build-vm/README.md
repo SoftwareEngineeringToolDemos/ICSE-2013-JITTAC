@@ -10,7 +10,7 @@ Folder content
 -----
 This build-vm folder contains following things:
 - __README.md__ file
-- __Vagrantfile__  This script will create and configure the VM with OpenJdk7.
+- __Vagrantfile__  This script will create and configure the VM with OpenJdk7 and Eclipse Indigo with JITTAC plugin and dependencies already installed.
 
 
 Steps to create a VM using this build
@@ -34,3 +34,5 @@ Verification
 1. Open terminal in Virtalbox gui
 2. type java -version
 3. Verify OpenJDK 7 has been successfully installed
+4. Verify link to Eclipse titled Eclipse_link has been placed on desktop
+5. Double click link to run Eclipse

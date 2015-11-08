@@ -60,5 +60,9 @@ Vagrant.configure(2) do |config|
 	 sudo apt-get update
 	 sudo apt-get dist-upgrade
 	 sudo apt-get install -y default-jdk
+	 sudo wget "http://www.darkness-falling.net/eclipse_hosts/eclipse-indigo.tar.gz" -O /home/vagrant/Desktop/eclipse.tar.gz
+	 sudo tar -xvf /home/vagrant/Desktop/eclipse.tar.gz -C /home/vagrant/Desktop/
+	 sudo rm /home/vagrant/Desktop/eclipse.tar.gz
+	 sudo ln -s /home/vagrant/Desktop/eclipse/eclipse /home/vagrant/Desktop/Eclipse_link
    SHELL
 end

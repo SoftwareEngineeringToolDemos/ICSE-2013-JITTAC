@@ -10,7 +10,7 @@ Folder content
 This build-vm folder contains following things:
 - __README.md file__
 - __Vagrantfile__
-  This is the script (& configuration) file of the VM. (Will be uploaded soon.)
+  This script will create and configure the VM.
 
 
 Steps to create a VM using this build
@@ -23,8 +23,8 @@ Steps to create a VM using this build
 5. Download all files from [build-vm](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC/tree/master/build-vm) to local machine.
 6. Open a command line/teminal window and go to build-vm folder
 7. Run "__vagrant up__"
-8. In VirtualBox GUI, enter credentials - username: __vagrant__ and password: __vagrant__
+8. In VirtualBox GUI, enter credentials 
+    username: __vagrant__ 
+    password: __vagrant__
 
-Note:
-
-It may take several minutes to download and configure the VM for use. Please wait until "__vagrant up__" finishes execution before working on GUI.
+**Note:** It may take several minutes to download and configure the VM for use. Please wait until "__vagrant up__" finishes execution before working on GUI.

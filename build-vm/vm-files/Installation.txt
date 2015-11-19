@@ -1,0 +1,27 @@
+1) Install Eclipse 3.7 Indigo (Note: Eclipse 4.X does not run the tool due to an eclipse bug) https://eclipse.org/downloads/packages/release/indigo/sr2 select the Eclipse classic 3.7.2 for appropriate OS
+
+The following instructions have been taken from the User's Guide located  at: http://sourceforge.net/p/actool/wiki/User%27s%20Guide/
+
+Preparation of the IDE
+
+Installing the Plug-In
+2) To install the plug-in select Help->Install New Software... and use the project's update site: http://actool.sourceforge.net/updates. Select Just-In-Time Tool for Architecture Consistency plug-in and install it. Then re-start the IDE for the plug-in to initialise.
+
+Importing the Sample Project (optional)
+
+3) Download the sample project from http://sourceforge.net/projects/actool/files/sample/jConverter.zip/download . Import it in to the workspace by selecting File->Import... and then Existing Projects into Workspace. Select the previously downloaded archive file and mark the jConverter project.
+
+Configuring the Plug-In
+Enabling the Source-Code Analysis
+
+4) After the project is imported into the workspace you need to right click on the project folder and select JITTAC>Enable Code Analysis, and then Project>Clean from the menu. This will enable architecture consistency checking for the jConverter project.
+
+    NOTE: Due to a bug in the current version of the plugin you may need to re-start the IDE after enabling the code analysis to fully initialise the plug-in. This only has to be done once after the code analysis is enabled.
+
+Enabling Architectural Problems
+
+5) Right click on the model file model.xam and select Properties, then select Architecture Consistency. Mark the project(s) (jConverter) for which you want to report architectural inconsistencies. You can also change the level of the architectural problems: Info, Warning or Error (NOTE: In order to see the architectural problems in the problem view the level has to be Warning or Error).
+
+Enabling Content Assist
+
+6) Select Window>Preferences from the menu and then select Java>Editor>Content Assist from the left pane. In the Sorting and Filtering pane you can set proposal sorting to either by consistency, then aphabeticaly or by consistency, then by relevance. This will enable content assist sorting and coloring.

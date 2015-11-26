@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: <<-SHELL
 	# Remove desktop Lock
 	echo "***** Removing Desktop Lock *****"
-    sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
+	sudo gsettings set org.gnome.desktop.screensaver lock-enabled false
 	
 	# Install Java
 	echo "***** Installing Java *****"
@@ -32,7 +32,7 @@ Vagrant.configure(2) do |config|
 	 
 	# Install Eclipse
 	echo "***** Downloading Eclipse *****"
-    sudo wget "https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC/raw/master/build-vm/vm-files/eclipse-indigo-noPlugins.tar.gz" -O /home/vagrant/Documents/eclipse.tar.gz
+	sudo wget "https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC/raw/master/build-vm/vm-files/eclipse-indigo-noPlugins.tar.gz" -O /home/vagrant/Documents/eclipse.tar.gz
 	sudo tar -xvf /home/vagrant/Documents/eclipse.tar.gz -C /home/vagrant/Documents/
 	sudo rm /home/vagrant/Documents/eclipse.tar.gz	
 	sudo chown -R vagrant "/home/vagrant/Documents/eclipse"

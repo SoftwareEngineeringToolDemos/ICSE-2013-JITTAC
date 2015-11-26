@@ -11,6 +11,7 @@ Folder content
 This build-vm folder contains following things:
 - __README.md__ file
 - __Vagrantfile__  This script will create and configure the VM with OpenJdk7 and Eclipse Indigo with JITTAC plugin and dependencies already installed.
+- __vm-files__  The necessary files for the Vagrant script to run
 
 
 Steps to create a VM using this build

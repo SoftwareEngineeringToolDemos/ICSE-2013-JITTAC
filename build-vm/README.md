@@ -34,3 +34,8 @@ Verification
 -----
 1. Wait for box to configure and reboot
 2. Eclipse will automatically start upon reboot
+
+Acknowledgements
+-----
+Thanks to [Priyadarshini Rajagopal](https://github.com/PriyadarshiniRajagopal) for assistance with removing unused launcher icons!
+

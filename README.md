@@ -9,5 +9,6 @@ This repository _is not_ the original repository for this tool. Here are some li
 In this repository, for JITTAC you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC) (available)
 * :white_check_mark: [The original tool] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC/tree/master/binaries) (available)
+* :white_check_mark: [Virtual machine containing tool] (https://docs.google.com/a/ncsu.edu/open?id=0B9giLkB1Bhv3RWc5bXJ3QUlreFk) (available)
 
 This repository was constructed by [Justin A Middleton](https://github.com/JustinAMiddleton) and [Jennifer Green](https://github.com/jmgreen813) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Jim Buckley for their help in establishing this repository. 

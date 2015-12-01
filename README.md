@@ -4,6 +4,7 @@ This repository contains information related to the tool JITTAC presented at Int
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page, including link to source code](http://actool.sourceforge.net/)
 * [The Tool on SourceForge](https://sourceforge.net/projects/actool/)
+* [Tool Video Demo](https://www.youtube.com/watch?v=BNqhp40PDD4)
 
 In this repository, for JITTAC you will find:
 * :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2013-JITTAC) (available)
